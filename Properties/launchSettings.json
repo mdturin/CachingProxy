@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "CachingProxy": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 3000 --origin http://dummyjson.com",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:63905;http://localhost:63906"
+    }
+  }
+}
